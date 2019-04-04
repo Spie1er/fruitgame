@@ -1,0 +1,21 @@
+@font-face {
+    font-family:'Arial Round MT Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Arial Round MT Bold'), url('arial-rounded-mt-bold.woff') format('woff');
+}
+
+h1 {
+    font-family: 'Arial Round MT Bold';
+    color: white;  
+}
+
+hr {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.wrp1 {
+    justify-content: center;
+ 
+}

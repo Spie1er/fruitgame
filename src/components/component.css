@@ -1,0 +1,80 @@
+
+.specviz {
+    background-color: #fecb2e;
+    border: solid;
+    font-family: 'Arial Round MT Bold';
+    -webkit-text-stroke: 0.5px gray;
+    padding: 0px 20px 0px 20px;
+    min-width: 250px;
+    
+    }
+
+@font-face {
+    font-family:'Arial Round MT Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Arial Round MT Bold'), url('../containers/arial-rounded-mt-bold.woff') format('woff');
+}
+
+.bt1 {
+    background-color: #53d769;
+    font-family: 'Arial Round MT Bold';
+    border: solid;
+    padding: 0px 20px 0px 20px;
+    min-width: 250px;
+    cursor: pointer ;
+
+
+    
+}
+
+.spcRED {
+    color: #fc3d39;
+}
+
+.spcOrange {
+    background-color: #fff1c4;
+    color: #53d769;
+    border: 1px white solid;
+    max-width: 250px;
+}
+
+.min300 {
+    min-width: 390px;
+}
+
+.nodeco {text-decoration: none;
+color: white;
+}
+
+input, button, submit { background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;} 
+    
+     
+    .checkbox {
+        display: inline-block;
+        cursor: grab;
+        }
+
+        input[type=checkbox] {
+        display:none;   
+        }
+
+        .checkbox:before {
+        background: url('../media/apple.png') no-repeat center center;
+        content: "";
+         display: inline-block;
+         width: 60px;
+         height: 60px;
+         vertical-align: middle;
+      
+        }
+        input[type=checkbox]:checked + .checkbox:before {
+          background: url('../media/applebite.png') no-repeat center center;
+              }
+
